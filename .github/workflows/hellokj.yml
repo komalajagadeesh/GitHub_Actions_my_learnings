@@ -6,7 +6,7 @@ on:
 
 jobs:
   greetUser:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - name: Say Hello to User
         run: echo "Hello Komala"
